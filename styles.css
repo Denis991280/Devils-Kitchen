@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Cinzel:wght@600&display=swap');
-
 .backgroundContainer {
     background-image: url("images/top-view-fresh-seafood-table.jpg");
     background-size:cover ;
@@ -32,7 +30,6 @@
 }
 
 .carousel-item {
-    margin-left: 13%;
     display: flex;
     flex-direction: row;
 }
@@ -50,6 +47,7 @@
     display: flex;
     width: 65%;
     align-items: center;
+    margin-left: 14%;
     
 }
 
@@ -61,6 +59,7 @@
     background-color: lightgray;
     padding: 2%;
     border-radius: 15px;
+    height: 480px;
 }
 
 .wrapDescription p{
@@ -70,13 +69,13 @@
 
 .carousel-control-next {
     border: none;
-    background-color: white;
+    background: none;
     margin-top: 32%;
 }
 
 .carousel-control-prev {
     border: none;
-    background-color: white;
+    background: none;
     margin-top: 32%;
 }
 
