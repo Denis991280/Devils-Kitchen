@@ -120,3 +120,181 @@
 .heroButtons {
     margin-top: 1%;
 }
+
+
+
+.collll6666 {
+    
+    
+}
+
+.carous666 {
+    justify-items: center;
+    background-image: url(https://media.discordapp.net/attachments/1153342560392200225/1158450220087124008/table1.png?ex=651c4a57&is=651af8d7&hm=d5f04cf8c371347beb91a70a28bdc63484a7b602b17d01a9a2f1fa593ef832f1&=&width=667&height=667);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    padding-right: 20%;
+    
+}
+.carous667 {
+    
+    justify-items: center;
+    background-image: url(https://media.discordapp.net/attachments/1153342560392200225/1158462200629972992/table2.png?ex=651c557f&is=651b03ff&hm=d70e09929cb8bcb1cdc59e6c3624c57d085b3ff7889fd27cf8e5f5c26dafdb3c&=&width=667&height=667);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    padding-right: 20%;
+    
+}
+.carous668 {
+    justify-items: center;
+    background-image: url(https://media.discordapp.net/attachments/1153342560392200225/1158462235459465379/table3.png?ex=651c5588&is=651b0408&hm=caac7582a47115f8e9be97502e9b2fa15e5b23eb2e4d24f006bafb1625ee543a&=&width=667&height=667);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    padding-right: 20%;
+    
+}
+
+.carous669 {
+    justify-items: center;
+    background-image: url(https://media.discordapp.net/attachments/1153342560392200225/1158462328275218432/table4.png?ex=651c559e&is=651b041e&hm=a408c13ee933fdb6f421b3837c9668f40c4dfd10fea9a9a7167f028bc1140109&=&width=667&height=667);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    padding-right: 20%;
+    
+}
+
+
+.carousel-caption {
+    margin-bottom: -13%;
+    position:fixed;
+}
+
+#carouselExampleSlidesOnly {
+    margin: -2%;
+    margin-top: -10%;
+}
+
+.hh123 {
+    margin-top: -13%;
+}
+
+.textmmain {
+    margin: 10%;
+}
+
+#lol1 {
+margin: 13%
+;}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        position:relative;
+        transform: translate(0, 0);
+        margin: 0 auto;
+        padding-bottom: 400px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+#carouselExampleSlidesOnly {
+    margin-top: 0%; }
+} 
+
+@media (max-width: 968px) {
+    #carouselExampleSlidesOnly {
+        margin-top: -20%;
+    }} 
+
+
+.fffddd {
+    font-size: 7rem;
+    margin-bottom: 50%;
+}
+
+#background-video {
+    position:absolute;
+    width: 100%;
+    z-index: -1;
+
+  }
+
+  .kqmwld {
+    margin-top: 40%;
+  }
+
+  .mmmargi {
+    margin-bottom: 10%;
+  }
+
+  .ayocol {
+    margin-left: -20%;
+  }
+
+
+  @media (max-width: 768px) {
+    .ayoback {
+        margin: 0;
+    }
+    .fffddd {
+        font-size: 3rem;
+        margin-bottom: 90%;
+    } 
+    #background-video {
+        object-fit: fill;
+        height: 370%;
+        max-width: 100%;
+    }
+    .mmmargi {
+        width: 80%;
+    }
+
+    #imgdevil {
+        width: 100%;
+        margin-left: 4%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+    .ayocol {
+        margin-left: 10%;
+    }
+
+}
+
+
+
+
+    
+    @media (max-width: 968px) {
+        #imgdevil {
+            width: 170%;
+            margin-top: 10%;
+            margin-bottom: 20%;
+            margin-left: -33%;
+        }
+        #background-video {
+            object-fit: fill;
+            height: 570%;
+            max-width: 100%;
+        }
+        .mmmargi {
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+        }
+    }
+
+
+
+    @media (max-width: 1568px) {
+        #background-video {
+            object-fit: fill;
+            height: 550%;
+            max-width: 100%;
+        }
+    }
