@@ -3,3 +3,179 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.backgroundContainer {
+    background-image: url("images/top-view-fresh-seafood-table.jpg");
+    background-size:cover ;
+    height: 95vh;
+    text-align: center;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+}
+
+.backgroundContainer h1 {
+    font-size: 4rem;
+    color: #DC3545;
+    font-family: 'Cinzel', serif;
+}
+
+.carousel{
+    margin: auto;
+    width: 80%;
+    height: 800px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapDescription h2 {
+    padding-bottom: 2%;
+}
+
+.wrapDescription button {
+    width: 150px;
+    margin: auto;
+}
+
+.wrapCarousel {
+    display: flex;
+    width: 65%;
+    align-items: center;
+    margin-left: 14%;
+    
+}
+
+
+.wrapDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 2%;
+    border-radius: 15px;
+    height: 480px;
+}
+
+.wrapDescription p{
+   width: 450px;
+}
+
+
+.carousel-control-next {
+    border: none;
+    background: none;
+    margin-top: 32%;
+}
+
+.carousel-control-prev {
+    border: none;
+    background: none;
+    margin-top: 32%;
+}
+
+.carousel-control-next:hover {
+    background-color: #DC3545;
+    border-radius: 25px;
+}
+
+.carousel-control-prev:hover {
+    background-color: #DC3545;
+    border-radius: 25px;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    background-color: #000000;
+    color: white;
+    height: 80px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #DC3545;
+}
+
+.footerLogo {
+    margin-top: -10%;
+    margin-left: -15%;
+}
+
+.footerAlign {
+    margin-left: 12%;
+}
+
+.heroButtons {
+    margin-top: 1%;
+}
+
+@media only screen and (max-width: 400px) {
+
+
+    .wrapDescription {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: lightgray;
+        padding: 2%;
+        border-radius: 15px;
+        height: 600px;
+        width: 300px;
+        font-size: 0.9rem;
+        margin-top: 15%;
+    }
+
+    .wrapCarousel img {
+        width: 0px;
+        height: 0px;
+    }
+
+    .carousel {
+        margin: 0;
+        width: 100%;
+        height: 730px;
+    }
+
+    .carousel-control-next {
+        border: none;
+        background: none;
+        margin-top: 5%;
+    }
+    
+    .carousel-control-prev {
+        border: none;
+        background: none;
+        margin-top: 5%;
+    }
+    .footerLogo {
+        display: none;
+    }
+
+    .footerAlign {
+        margin-right: 10%;
+        font-size: 0.8rem;
+    }
+    .backgroundContainer {
+        background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(images/top-view-fresh-seafood-table.jpg);
+        background-size:cover ;
+        height: 95vh;
+        text-align: center;
+        display: flex;    
+        flex-direction: column;
+        justify-content: center;
+        /* will also set the opacity of the link text */        
+    }
+}
