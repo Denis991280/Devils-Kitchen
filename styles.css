@@ -21,8 +21,8 @@
   font-family: "Cinzel", serif;
 }
 
-.backgroundContainer > h2, h3 {
-  text-shadow: 3px 3px black; 
+.h3shadow {
+  text-shadow: 3px 3px black;
 }
 
 .carousel {
@@ -136,8 +136,6 @@ footer {
 .wrapper {
   margin: 2%;
 }
-
-
 
 .ingredients-container {
   display: grid;
